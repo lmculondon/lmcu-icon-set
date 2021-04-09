@@ -1,0 +1,470 @@
+@font-face {
+	font-family: "lmcu-icons";
+	src: url('./lmcu-icons.eot');
+	src: url('./lmcu-icons.eot?#iefix') format('eot'),
+		url('./lmcu-icons.woff2') format('woff2'),
+		url('./lmcu-icons.woff') format('woff'),
+		url('./lmcu-icons.ttf') format('truetype'),
+		url('./lmcu-icons.svg#lmcu-icons') format('svg');
+}
+
+.icon:before {
+	font-family: "lmcu-icons";
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	/* speak: none; only necessary if not using the private unicode range (firstGlyph option) */
+	text-decoration: none;
+	text-transform: none;
+}
+
+
+.icon-uEA01-001-circular-graphic-of-business-cycle-or-circuit:before {
+	content: "\E001";
+}
+
+.icon-uEA02-002-information:before {
+	content: "\E002";
+}
+
+.icon-uEA03-003-round-account-button-with-user-inside:before {
+	content: "\E003";
+}
+
+.icon-uEA04-004-cancel-credit-card:before {
+	content: "\E004";
+}
+
+.icon-uEA05-005-car:before {
+	content: "\E005";
+}
+
+.icon-uEA06-006-email:before {
+	content: "\E006";
+}
+
+.icon-uEA07-007-star:before {
+	content: "\E007";
+}
+
+.icon-uEA08-008-pound-sterling:before {
+	content: "\E008";
+}
+
+.icon-uEA09-009-sunbed:before {
+	content: "\E009";
+}
+
+.icon-uEA0A-010-handshake:before {
+	content: "\E00A";
+}
+
+.icon-uEA0B-011-phone-call:before {
+	content: "\E00B";
+}
+
+.icon-uEA0C-012-credit-card:before {
+	content: "\E00C";
+}
+
+.icon-uEA0D-013-battery:before {
+	content: "\E00D";
+}
+
+.icon-uEA0E-014-check:before {
+	content: "\E00E";
+}
+
+.icon-uEA0F-015-teamwork:before {
+	content: "\E00F";
+}
+
+.icon-uEA10-016-open-book:before {
+	content: "\E010";
+}
+
+.icon-uEA11-017-prize:before {
+	content: "\E011";
+}
+
+.icon-uEA12-018-send:before {
+	content: "\E012";
+}
+
+.icon-uEA13-019-hospital:before {
+	content: "\E013";
+}
+
+.icon-uEA14-020-stethoscope:before {
+	content: "\E014";
+}
+
+.icon-uEA15-021-handshake-1:before {
+	content: "\E015";
+}
+
+.icon-uEA16-022-passport:before {
+	content: "\E016";
+}
+
+.icon-uEA17-023-location:before {
+	content: "\E017";
+}
+
+.icon-uEA18-024-wedding-rings:before {
+	content: "\E018";
+}
+
+.icon-uEA19-025-lifeguard:before {
+	content: "\E019";
+}
+
+.icon-uEA1A-026-squirrel:before {
+	content: "\E01A";
+}
+
+.icon-uEA1B-027-mortarboard:before {
+	content: "\E01B";
+}
+
+.icon-uEA1C-028-brick-wall:before {
+	content: "\E01C";
+}
+
+.icon-uEA1D-029-lmcu-icons-filled-id:before {
+	content: "\E01D";
+}
+
+.icon-uEA1E-030-lmcu-icons-filled-savings-1:before {
+	content: "\E01E";
+}
+
+.icon-uEA1F-031-lmcu-icons-filled-current-account:before {
+	content: "\E01F";
+}
+
+.icon-uEA20-032-lmcu-icons-filled-savings:before {
+	content: "\E020";
+}
+
+.icon-uEA21-033-lmcu-icons-filled-card:before {
+	content: "\E021";
+}
+
+.icon-uEA22-034-lmcu-icons-filled-house-money:before {
+	content: "\E022";
+}
+
+.icon-uEA23-035-lmcu-icons-filled-decision:before {
+	content: "\E023";
+}
+
+.icon-uEA24-036-lmcu-icons-filled-card-stack:before {
+	content: "\E024";
+}
+
+.icon-uEA25-037-lmcu-icons-filled-mobile-app:before {
+	content: "\E025";
+}
+
+.icon-uEA26-038-lmcu-icons-filled-identification:before {
+	content: "\E026";
+}
+
+.icon-uEA27-039-lmcu-icons-filled-graph:before {
+	content: "\E027";
+}
+
+.icon-uEA28-040-lifeguard-1:before {
+	content: "\E028";
+}
+
+.icon-uEA29-041-multiple-users-silhouette:before {
+	content: "\E029";
+}
+
+.icon-uEA2A-042-desktop-monitor:before {
+	content: "\E02A";
+}
+
+.icon-uEA2B-043-lock-square-locked-filled-padlock:before {
+	content: "\E02B";
+}
+
+.icon-uEA2C-044-black-suitcase:before {
+	content: "\E02C";
+}
+
+.icon-uEA2D-045-help-sing:before {
+	content: "\E02D";
+}
+
+.icon-uEA2E-046-percentage:before {
+	content: "\E02E";
+}
+
+.icon-uEA2F-047-pie-chart:before {
+	content: "\E02F";
+}
+
+.icon-uEA30-048-bank:before {
+	content: "\E030";
+}
+
+.icon-uEA31-049-warning:before {
+	content: "\E031";
+}
+
+.icon-uEA32-050-home:before {
+	content: "\E032";
+}
+
+.icon-uEA33-051-giftbox:before {
+	content: "\E033";
+}
+
+.icon-uEA34-052-suitcase:before {
+	content: "\E034";
+}
+
+.icon-uEA35-053-debit-card:before {
+	content: "\E035";
+}
+
+.icon-uEA36-054-pound:before {
+	content: "\E036";
+}
+
+.icon-uEA37-055-file:before {
+	content: "\E037";
+}
+
+.icon-uEA38-056-monthly-calendar:before {
+	content: "\E038";
+}
+
+.icon-uEA39-057-leaves:before {
+	content: "\E039";
+}
+
+.icon-uEA3A-001-006-armed-forces-covenant:before {
+	content: "\E03A";
+}
+
+.icon-uEA3B-002-016-ministry-of-defence-crest:before {
+	content: "\E03B";
+}
+
+.icon-uEA3C-003-017-fscs-protected-svg:before {
+	content: "\E03C";
+}
+
+.icon-uEA3D-004-symbol:before {
+	content: "\E03D";
+}
+
+.icon-uEA3E-001-conversation:before {
+	content: "\E03E";
+}
+
+.icon-uEA3F-002-pilot:before {
+	content: "\E03F";
+}
+
+.icon-uEA40-003-manager:before {
+	content: "\E040";
+}
+
+.icon-uEA41-004-soldier:before {
+	content: "\E041";
+}
+
+.icon-uEA42-005-chemist:before {
+	content: "\E042";
+}
+
+.icon-uEA43-006-swimmer:before {
+	content: "\E043";
+}
+
+.icon-uEA44-007-interior-design:before {
+	content: "\E044";
+}
+
+.icon-uEA45-008-booking:before {
+	content: "\E045";
+}
+
+.icon-uEA46-009-beach:before {
+	content: "\E046";
+}
+
+.icon-uEA47-010-money:before {
+	content: "\E047";
+}
+
+.icon-uEA48-011-credit-card:before {
+	content: "\E048";
+}
+
+.icon-uEA49-012-car:before {
+	content: "\E049";
+}
+
+.icon-uEA4A-013-passport:before {
+	content: "\E04A";
+}
+
+.icon-uEA4B-014-shoe-shop:before {
+	content: "\E04B";
+}
+
+.icon-uEA4C-015-call-center-service:before {
+	content: "\E04C";
+}
+
+.icon-uEA4D-016-gift:before {
+	content: "\E04D";
+}
+
+.icon-uEA4E-017-accounting:before {
+	content: "\E04E";
+}
+
+.icon-uEA4F-018-innovation:before {
+	content: "\E04F";
+}
+
+.icon-uEA50-019-user-interface:before {
+	content: "\E050";
+}
+
+.icon-uEA51-020-slider:before {
+	content: "\E051";
+}
+
+.icon-uEA52-021-group:before {
+	content: "\E052";
+}
+
+.icon-uEA53-022-house:before {
+	content: "\E053";
+}
+
+.icon-uEA54-023-loan:before {
+	content: "\E054";
+}
+
+.icon-uEA55-024-placeholder:before {
+	content: "\E055";
+}
+
+.icon-uEA56-025-cake:before {
+	content: "\E056";
+}
+
+.icon-uEA57-026-paper-plane:before {
+	content: "\E057";
+}
+
+.icon-uEA58-027-save-money:before {
+	content: "\E058";
+}
+
+.icon-uEA59-028-customer-service:before {
+	content: "\E059";
+}
+
+.icon-uEA5A-029-mail:before {
+	content: "\E05A";
+}
+
+.icon-uEA5B-030-plant:before {
+	content: "\E05B";
+}
+
+.icon-uEA5C-031-skill:before {
+	content: "\E05C";
+}
+
+.icon-uEA5D-032-contract:before {
+	content: "\E05D";
+}
+
+.icon-uEA5E-033-process:before {
+	content: "\E05E";
+}
+
+.icon-uEA5F-034-member-card:before {
+	content: "\E05F";
+}
+
+.icon-uEA60-035-credit-card-1:before {
+	content: "\E060";
+}
+
+.icon-uEA61-036-rating:before {
+	content: "\E061";
+}
+
+.icon-uEA62-037-013-salary:before {
+	content: "\E062";
+}
+
+.icon-uEA63-038-008-cycle-1:before {
+	content: "\E063";
+}
+
+.icon-uEA64-039-012-credit-union:before {
+	content: "\E064";
+}
+
+.icon-uEA65-040-015-growing:before {
+	content: "\E065";
+}
+
+.icon-uEA66-041-parenting:before {
+	content: "\E066";
+}
+
+.icon-uEA67-042-pause:before {
+	content: "\E067";
+}
+
+.icon-uEA68-043-letter:before {
+	content: "\E068";
+}
+
+.icon-uEA69-044-evaluation:before {
+	content: "\E069";
+}
+
+.icon-uEA6A-045-raise-hand:before {
+	content: "\E06A";
+}
+
+.icon-uEA6B-046-stethoscope:before {
+	content: "\E06B";
+}
+
+.icon-uEA6C-047-classroom:before {
+	content: "\E06C";
+}
+
+.icon-uEA6D-048-brisbane-city-hall:before {
+	content: "\E06D";
+}
+
+.icon-uEA6E-049-gambling:before {
+	content: "\E06E";
+}
+
+.icon-uEA70-042-key:before {
+	content: "\E06F";
+}
+
+.icon-uEA71-042-living-wage:before {
+	content: "\E070";
+}

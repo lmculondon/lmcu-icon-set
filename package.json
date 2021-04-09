@@ -1,0 +1,28 @@
+{
+  "name": "lmcu-icon-set",
+  "version": "1.0.0",
+  "description": "Takes a set of SVG files and optimizes and converts into usable icon font",
+  "main": "gulpfile.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lmculondon/lmcu-icon-set.git"
+  },
+  "author": "Ben West",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lmculondon/lmcu-icon-set/issues"
+  },
+  "homepage": "https://github.com/lmculondon/lmcu-icon-set#readme",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-iconfont": "^11.0.0",
+    "gulp-iconfont-css": "^3.0.0",
+    "gulp-svgo": "^2.2.1"
+  }
+}
