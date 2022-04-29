@@ -1,27 +1,28 @@
 const gulp = require('gulp');
 const svgo = require('gulp-svgo');
-const iconfont = require('gulp-iconfont');
-const iconfontCss = require('gulp-iconfont-css');
+const svgFill = require('gulp-svg-fill');
 const runTimestamp = Math.round(Date.now() / 1000);
-var LMCUFontName = 'lmcu-icons';
+const rename = require("gulp-rename");
 
 gulp.task('default', function () {
   return gulp.src(['src/svg/**/*.svg'])
     .pipe(svgo())
-    .pipe(iconfontCss({
-      fontName: LMCUFontName,
-      targetPath: LMCUFontName +'.css',
+    .pipe(svgFill({
+      colors: {
+        'Charcoal': '#282D37',
+        'White': '#FFFFFF',
+      }
     }))
-    .pipe(iconfont({
-      fontName: LMCUFontName, // required
-      normalize: true,
-      prependUnicode: true, // recommended option
-      formats: ['ttf', 'eot', 'woff', 'svg', 'woff2'], // default, 'woff2' and 'svg' are available
-      timestamp: runTimestamp, // recommended to get consistent builds when watching files
+    .pipe(rename({
+      prefix:"lmcu-icon-"
     }))
-    .on('glyphs', function (glyphs, options) {
-      // CSS templating, e.g.
-      console.log(glyphs, options);
-    })
-    .pipe(gulp.dest('docs/fonts/'));
+    .pipe(gulp.dest('docs/svg/'));
+});
+gulp.task('svgrename', function() {
+  return gulp.src(['src/svg/**/*.svg'])
+  .pipe(rename(function(opt) {
+    opt.basename = opt.basename.replace(/^.{0,10}/,'');
+    return opt;
+  }))
+  .pipe(gulp.dest('src/svg/'));
 });
